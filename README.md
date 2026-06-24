@@ -12,5 +12,5 @@ A simple Body Mass Index calculator. Enter your height and weight, get your BMI 
 ### How to Use
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/bmi-calculator.git
+   git clone https://github.com/xpreacher/bmi-calculator.git
    cd bmi-calculatorRun the calculator:bash   python bmi.py
