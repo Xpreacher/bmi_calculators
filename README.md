@@ -1,4 +1,16 @@
-# bmi_calculators
+ README.mdmarkdown# BMI Calculator
 
+A simple Body Mass Index calculator. Enter your height and weight, get your BMI and health category in seconds. Supports both metric and imperial units.
 
-A BMI (Body Mass Index) calculator is a tool that determines if your body weight falls into a healthy range for your height. It screens for potential health risks—such as heart disease or malnutrition—by comparing your weight against your height using a simple mathematical formula.How the Calculation WorksA BMI calculator divides your body weight by the square of your height.Metric Formula: \(\text{BMI} = \frac{\text{weight in kg}}{(\text{height in m})^2}\)Imperial Formula: \(\text{BMI} = 703 \times \frac{\text{weight in lbs}}{(\text{height in inches})^2}\)
+### Features
+- **Dual units**: Metric `kg/cm` + Imperial `lbs/in`
+- **Instant results**: BMI value + health category 
+- **Health categories**: Underweight, Normal, Overweight, Obese based on WHO standards
+- **Input validation**: Handles invalid/negative inputs gracefully
+- **Zero dependencies**: Just run and calculate
+
+### How to Use
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/bmi-calculator.git
+   cd bmi-calculatorRun the calculator:bash   python bmi.py
